@@ -1,0 +1,80 @@
+/* Overall page styling with a soft background */
+body {
+    background-image: url('..soft-floral-pattern.png'); /* Replace with your image */
+    background-repeat: repeat;
+    background-color: #f06fd2; /* A very light peach/pink */
+    font-family: sans-serif;
+    color: #333;
+    padding: 2em;
+    /* ... other body styles ... */
+}
+
+/* Main notebook container with a subtle texture or color */
+.notebook {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fffaf0; /* Light ivory for the pages */
+    border: 1px solid #e0dede;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Slightly more rounded corners */
+    overflow: hidden; /* To contain any background patterns */
+}
+
+
+/* Header with a touch of color */
+.diary-header {
+    text-align: center;
+    padding: 2.5em 2em 1.5em 2em;
+    background-color: #f0808010; /* Very light coral for a subtle background */
+    border-bottom: 1px solid #f0808030; /* A light coral border */
+}
+
+.diary-header h1 {
+    margin: 0;
+    font-family: 'Bubbler One', cursive; /* Make sure to replace! */
+    font-size: 3.5em;
+    color: #5a4a42;
+}
+
+.date-nav a {
+    text-decoration: none;
+    color: #8c786e;
+    margin: 0 0.5em;
+}
+
+.date-nav a:hover {
+    color: #f08080; /* A little color on hover */
+}
+
+/* Individual diary entry styling */
+.entry {
+    padding: 2em;
+    border-bottom: 1px dashed #eee; /* A softer line between entries */
+}
+
+.entry:last-child {
+    border-bottom: none;
+}
+
+.entry-date {
+    font-size: 0.9em;
+    color: #aaa;
+    display: block;
+    margin-bottom: 0.8em;
+    font-style: italic; /* A little italic for the date */
+}
+
+.entry-title {
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    color: #666;
+    font-size: 1.8em;
+}
+
+/* Main entry text with your cursive font */
+.entry-body {
+    font-family: 'Architects Daughter', cursive; /* Make sure to replace! */
+    font-size: 1.6em;
+    line-height: 1.7;
+    color: #444;
+}
