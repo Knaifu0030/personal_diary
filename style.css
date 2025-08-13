@@ -1,6 +1,6 @@
 /* Overall page styling with a soft background */
 body {
-    background-image: url('../soft-floral-pattern.png'); /* Replace with your image */
+    background-image: url('soft-floral-pattern.png');
     background-repeat: repeat;
     background-color: #f06fd2; /* A very light peach/pink */
     font-family: sans-serif;
@@ -79,3 +79,4 @@ body {
     color: #444;
 
 }
+
